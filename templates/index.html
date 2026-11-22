@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CECyTEJ Plantel 08 - 30 Años</title>
+<link rel="stylesheet" href="/static/estilos.css">
+</head>
+<body>
+
+<header>
+  <div class="logos">
+    <img src="/static/img/logo_cecytej.png" class="logo">
+    <img src="/static/img/logo30.png" class="logo">
+  </div>
+  <h1>CECyTEJ Plantel 08</h1>
+  <p>Ixtlahuacán del Río - Al norte de la Zona Metropolitana de GDL</p>
+</header>
+
+<!-- PAGINA 1 INICIO -->
+<section id="inicio" class="pagina activa">
+  <h2>1. Inicio</h2>
+  <h3 class="amarillo">Bienvenidos. Celebremos tres decadas de historia, aprendizaje y orgullo</h3>
+  <h3>30 AÑOS FORMANDO GENERACIONES, CONSTRUYENDO OPORTUNIDADES</h3>
+  <img src="/static/img/inicio.jpg" class="foto-grande">
+  <p><b>Bachillerato Tecnologico:</b> Prepa + Titulo de Tecnico. Al salir tienes tu certificado de prepa y tu titulo de tecnico, doble oportunidad.</p>
+  <div class="botones">
+    <button onclick="irA('historia')">Siguiente</button>
+  </div>
+</section>
+
+<!-- PAGINA 2 HISTORIA -->
+<section id="historia" class="pagina">
+  <h2>2. Nuestra Historia: Tres decadas de transformacion</h2>
+  <p><b>Sabias que nuestro plantel nacio en septiembre de 1999 en el DIF Municipal?</b> Empezamos con 83 alumnos y hoy somos una gran familia CECyTEJ. Aqui te contamos como fuimos creciendo con esfuerzo, memoria y corazon.</p>
+
+  <h3>Antes y Despues</h3>
+  <div class="dos-fotos">
+    <div><img src="/static/img/antes.jpg"><p><b>Antes</b></p></div>
+    <div><img src="/static/img/despues.jpg"><p><b>Despues</b></p></div>
+  </div>
+
+  <div class="timeline">
+    <div class="punto-tiempo"><span class="dot"></span><div class="texto-tiempo"><b>1999 - Nace CECyTEJ</b><br>La SEP lo crea. Nace el plantel en septiembre de 1999 en el DIF Municipal con 83 alumnos.</div></div>
+    <div class="punto-tiempo"><span class="dot"></span><div class="texto-tiempo"><b>Primer Director: Alberto Montero Villa</b><br>Primer director del plantel.</div></div>
+    <div class="punto-tiempo"><span class="dot"></span><div class="texto-tiempo"><b>Primeras Carreras</b><br>Informatica y Programacion, entre otras.</div></div>
+    <div class="punto-tiempo"><span class="dot"></span><div class="texto-tiempo"><b>2002 - 2010</b><br>El plantel involucra a toda la region.</div></div>
+    <div class="punto-tiempo"><span class="dot"></span><div class="texto-tiempo"><b>2026 - Hoy</b><br>30 años CECyTEJ: 31 planteles, 12 aulas, mas de 22 mil estudiantes, 76 carreras. Mejoras: mas aulas, mas equipo de computo, capacitacion, mejores maestros, siembra de arboles, mejor reputacion.</div></div>
+  </div>
+
+  <div class="botones">
+    <button onclick="irA('inicio')">Regresar</button>
+    <button onclick="irA('voces')">Siguiente</button>
+  </div>
+</section>
+
+<!-- PAGINA 3 VOCES -->
+<section id="voces" class="pagina">
+  <h2>3. Voces que dejan huella</h2>
+  <p><b>Cada generacion que pasa por aqui deja su huella.</b> El CECyTEJ es nuestra segunda casa. Escucha lo que dicen quienes ya vivieron esta historia.</p>
+
+    <h3>Egresados</h3>
+  <div class="galeria">
+    <div class="tarjeta"><h3>Diana Ramirez</h3><p>El CECyTEJ me dio la oportunidad de estudiar el bachillerato y al mismo tiempo una carrera. Hoy tengo mi titulo y un trabajo. Fue la mejor decision.</p></div>
+    <div class="tarjeta"><h3>Arturo Nuñez</h3><p>Yo era de las primeras generaciones. Entre sin saber nada y sali con una carrera. El CECyTEJ me cambio la vida.</p></div>
+    <div class="tarjeta"><h3>Diana Gonzalez</h3><p>El CECyTEJ me enseño que con esfuerzo todo se puede. Hoy estudio la universidad gracias a lo que aprendi aqui.</p></div>
+    <div class="tarjeta"><h3>Carlos Rodriguez</h3><p>Aqui aprendi a trabajar en equipo, a no rendirme y a creer en mi. El CECyTEJ es familia.</p></div>
+  </div>
+
+  <div class="tarjeta-ancha">
+    <h3>Cristina Limon - Personal Administrativo</h3>
+    <p>He visto la historia del plantel desde el inicio. Ha visto crecer al plantel desde el 83 alumnos. El trabajo en administracion ha sido clave para que el plantel siga creciendo. Llevo 30 años aqui, viendo como cada generacion deja su huella.</p>
+  </div>
+
+  <hr class="separador">
+  <h3>Fotos de antiguas generaciones</h3>
+  <p>Recuerdos que nos unen a todas las generaciones.</p>
+  <div class="galeria">
+    <img src="/static/img/generaciones1.jpg" class="foto-gen">
+    <img src="/static/img/generaciones2.jpg" class="foto-gen">
+    <img src="/static/img/generaciones3.jpg" class="foto-gen">
+    <img src="/static/img/generaciones4.jpg" class="foto-gen">
+  </div>
+
+  <div class="botones">
+    <button onclick="irA('historia')">Regresar</button>
+    <button onclick="irA('orgullo')">Siguiente</button>
+  </div>
+</section>
+
+<!-- PAGINA 4 ORGULLO -->
+<section id="orgullo" class="pagina">
+  <h2>4. Orgullo CECyTEJ - Logros, Talento y Proyectos</h2>
+  <p>Por: <b>Amada Guadalupe Mercado</b></p>
+
+  <div class="rectangulos">
+    <div class="rectangulo"><h3>1. Tecnologia</h3><p>Robots, uso y aplicaciones, crear paginas en programacion. En la carrera de Programacion creamos software, paginas web y aplicaciones para resolver problemas de la vida real. Aprendemos a usar la tecnologia para crear, no solo para consumir.</p></div>
+    <div class="rectangulo"><h3>2. Ciencia</h3><p>Ferias de ciencias y exposiciones de proyectos. Los estudiantes presentan su talento y aprendizaje con proyectos de ciencia que ayudan a su comunidad.</p></div>
+    <div class="rectangulo"><h3>3. Deportes</h3><p>Actividades deportivas, torneos de futbol, basquet y atletismo. El deporte nos enseña a trabajar en equipo y a cuidar nuestra salud.</p></div>
+    <div class="rectangulo"><h3>4. Cultura</h3><p>En actividades culturales celebramos la cultura de nuestra tierra, con danza, musica y tradiciones. La cultura nos une y nos hace sentir orgullosos de ser de Ixtlahuacan.</p></div>
+  </div>
+
+  <div class="rectangulo"><h3>5. Logros Academicos</h3><p>Festival academico nacional CECyTEJ. Existen 305 planteles CECyTEJ en todo el pais. Representando a CECyTEJ Jalisco en concursos nacionales, ganando lugares en ingles, matematicas y ciencias. El orgullo de ser CECyTEJ se vive en cada logro.</p></div>
+
+  <h3>Foto Orgullo CECyTEJ</h3>
+  <img src="/static/img/orgullo1.jpg" class="foto-grande">
+
+  <div class="botones">
+    <button onclick="irA('voces')">Regresar</button>
+    <button onclick="irA('celebrar')">Siguiente</button>
+  </div>
+</section>
+
+<!-- PAGINA 5 CELEBRAR -->
+<section id="celebrar" class="pagina">
+  <h2>5. Celebremos Juntos - 30 años de orgullo y tradicion</h2>
+  <p><b>Te invitamos a celebrar con nosotros 30 años de historia.</b> Exalumnos y padres de familia, estudiantes y docentes, todos son parte de esta gran fiesta.</p>
+  <h3>Agenda del Aniversario</h3>
+  <div class="agenda">
+    <p><b>1. Inauguracion del Aniversario</b><br>Lunes 23 de febrero - 9:00 AM - Patio Central. Corte de liston, honores a la bandera y exposicion de fotos.</p>
+    <p><b>2. Desfile y Kermes</b><br>Desfile de generaciones, carros alegoricos, musica, comida y juegos. Toda la comunidad participa.</p>
+    <p><b>3. Noche Cultural</b><br>Viernes 27 de febrero - 6:00 PM - Auditorio. Presentaciones artisticas, danza, musica, teatro y poesia.</p>
+    <p><b>4. Torneo Deportivo y Juegos</b><br>Sabado 28 de febrero - 10:00 AM - Canchas. Competencias de futbol, basquet y atletismo. A jugar.</p>
+    <p><b>5. Gran Clausura y Baile</b><br>Domingo 1 de marzo - 7:00 PM - Patio Central. Entrega de reconocimientos, galeria de aniversario y baile de clausura.</p>
+  </div>
+  <div class="botones">
+    <button onclick="irA('orgullo')">Regresar</button>
+    <button onclick="irA('futuro')">Siguiente</button>
+  </div>
+</section>
+
+<!-- PAGINA 6 FUTURO -->
+<section id="futuro" class="pagina">
+  <h2>6. Nuestro Futuro - Los proximos 30 años</h2>
+  <p><b>Como imaginamos el CECyTEJ dentro de 30 años?</b> Un plantel mas moderno, con mas tecnologia y mas oportunidades para todos.</p>
+  <ul class="lista">
+    <li><b>1. Mejora de instalaciones:</b> Mas aulas, mas laboratorios, mas espacios deportivos.</li>
+    <li><b>2. Nuevas tecnologias:</b> Mas computadoras, internet, robotica e inteligencia artificial.</li>
+    <li><b>3. Metas y proyectos:</b> Mas carreras, mas becas, mas convenios con empresas.</li>
+    <li><b>4. Compromiso:</b> Seguir formando jovenes con valores, respeto y amor por su comunidad.</li>
+    <li><b>5. Mensajes:</b> Deja tu mensaje para las proximas generaciones.</li>
+  </ul>
+
+  <h3>Mensaje para el futuro</h3>
+  <form method="POST" class="form">
+    <input type="text" name="nombre" placeholder="Nombre del estudiante:" required>
+    <input type="text" name="semestre" placeholder="Semestre y grupo:">
+    <textarea name="mensaje" placeholder="Mensaje para las proximas generaciones" required></textarea>
+    <button type="submit">Enviar mi mensaje</button>
+  </form>
+
+  {% for m in mensajes %}
+  <div class="mensaje"><b>{{ m.nombre }} - {{ m.semestre }}</b><br>{{ m.mensaje }}</div>
+  {% endfor %}
+
+  <div class="botones">
+    <button onclick="irA('celebrar')">Regresar</button>
+    <button onclick="irA('inicio')">Volver al inicio</button>
+  </div>
+</section>
+
+<footer><p>CECyTEJ Plantel 08 - 30 Años de Historia - Ixtlahuacan del Rio</p></footer>
+
+<script>
+function irA(id) {
+  document.querySelectorAll('.pagina').forEach(function(p){ p.classList.remove('activa'); });
+  document.getElementById(id).classList.add('activa');
+  window.scrollTo(0,0);
+}
+</script>
+</body>
+</html>
